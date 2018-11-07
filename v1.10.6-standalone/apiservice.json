@@ -63,9 +63,8 @@
     }, 
     "spec": {
       "required": [
-        "service", 
-        "caBundle", 
-        "groupPriorityMinimum", 
+        "service",
+        "groupPriorityMinimum",
         "versionPriority"
       ], 
       "description": "APIServiceSpec contains information for locating and communicating with a server. Only https is supported, though you are able to disable certificate verification.", 
